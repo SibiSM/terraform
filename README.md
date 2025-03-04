@@ -53,7 +53,7 @@ terraform apply
 ```
 Terraform will prompt for confirmation before making changes. Type yes to proceed and apply the configuration.
 
-#### Key Feature: Minimal Downtime Upgrade
+# Key Feature: Minimal Downtime Upgrade
 This configuration is designed to upgrade the Kubernetes cluster with minimal downtime by leveraging the following techniques:
 # Auto-scaling
 The cluster automatically adjusts the number of nodes based on demand.

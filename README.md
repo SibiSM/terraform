@@ -56,7 +56,11 @@ Terraform will prompt for confirmation before making changes. Type yes to procee
 #### Key Feature: Minimal Downtime Upgrade
 This configuration is designed to upgrade the Kubernetes cluster with minimal downtime by leveraging the following techniques:
 
-# Auto-scaling: The cluster automatically adjusts the number of nodes based on demand.
-# Multiple Availability Zones: The cluster is deployed across multiple availability zones to ensure high availability during upgrades.
-# Node Pool Upgrade: The Kubernetes nodes are upgraded with minimal disruption by using the max_surge parameter, which ensures that only a small portion of the nodes are upgraded at a time.
+# Auto-scaling
+The cluster automatically adjusts the number of nodes based on demand.
+# Multiple Availability Zones
+The cluster is deployed across multiple availability zones to ensure high availability during upgrades.
+# Node Pool Upgrade: 
+The Kubernetes nodes are upgraded with minimal disruption by using the max_surge parameter, which ensures that only a small portion of the nodes are upgraded at a time.
+
 These features ensure that the Kubernetes cluster remains available and performant during the upgrade process.
